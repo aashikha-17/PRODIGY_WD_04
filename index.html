@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link ref="stylesheet" href="style.css">
+    
+</head>
+
+<body class=" flex flex-col md:flex-row">
+
+    
+    <nav class="dil shadow md:w-64 md:h-auto " >
+        <div class="container mx-auto p-4 md:fixed ">
+            
+            <button id="menu-toggle" class="md:hidden block mb-4">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M4 6h16M4 12h16m-7 6h7"></path>
+                </svg>
+            </button>
+            <ul id="menu" class="space-y-4 md:block hidden w-52  " >
+                <h1 class="text-2xl font-bold mb-6 mt-4 ml-4">My Portfolio</h1>
+                <li>
+                    <a href="#about" class="nav-item block p-2 rounded mx-auto  ">
+                        About
+                    </a>
+                </li>
+                
+                <li><a href="#education" class="nav-item block p-2">Education</a></li>
+                <li><a href="#skills" class="nav-item block p-2">Skills</a></li>
+                <li><a href="#projects" class="nav-item block p-2">Projects</a></li>
+                <li><a href="#achievements" class="nav-item block p-2">Achievements</a></li>
+                <li><a href="#contact" class="nav-item block p-2">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav class="dil fixed top-0 w-full z-10 hidden md:flex">
+        <div class="container mx-auto px-4 py-2 flex justify-end items-center">
+            
+            <div class="space-x-4">
+                
+                <a href="https://www.linkedin.com/in/your-profile" target="_blank" class="text-gray-300 hover:text-white transition">
+                    <i class="fab fa-linkedin fa-lg"></i>
+                </a>
+                <a href="mailto:your-email@example.com" class="text-gray-300 hover:text-white transition">
+                    <i class="fas fa-envelope fa-lg"></i>
+                </a>
+                <a href="https://github.com/your-username" target="_blank" class="text-gray-300 hover:text-white transition">
+                    <i class="fab fa-github fa-lg"></i>
+                </a>
+                <a href="https://leetcode.com/your-profile" target="_blank" class="text-gray-300 hover:text-white transition">
+                    <i class="fas fa-code fa-lg"></i> <!-- Example icon, adjust as needed -->
+                </a>
+                
+            </div>
+        </div>
+    </nav>
+
+    <main class="flex-1 container mx-auto p-4 ">
+        <section id="about" class=" py-16 ">
+            <div class=" about p-6 rounded-lg ">
+                <h2 class="text-3xl font-bold mb-4 ml-6 mt-4">PROFILE</h2>
+                <div class=" flex flex-col md:flex-row items-center ">
+                    <img src="assets/pic.jpg" alt="Profile Picture" class="ml-2 w-52 h-auto rounded-lg md:mr-6 mb-4 md:mb-0">
+                    <div class="md:w-2/3 ml-4">
+                        <h3 class="text-2xl font-bold mb-2 text-gray-100 ">AASHIKHA RAMESH</h3>
+                        <p class="text-lg text-gray-200 tet ">Full Stack Developer | UI/UX Enthusiast</p>
+                        <p class="mt-4 tet">I am a passionate full stack developer with a keen interest in creating intuitive and user-friendly web applications. With expertise in HTML, CSS, JavaScript, and frameworks like React and Node.js, <BR>I enjoy solving complex problems and turning ideas into reality.</p>
+                        <p class="mt-4 tet">My background in UI/UX design complements my technical skills, allowing me to create seamless and engaging user experiences. Beyond coding, I thrive on exploring new technologies, contributing to open-source projects, and participating in hackathons. I am dedicated to continuous learning and improving my skills to stay ahead in the ever-evolving tech industry.</p>
+                        <div class="mt-4 tet">
+                            <p class="text-lg font-semibold">Skills:</p>
+                            <ul class="list-disc list-inside">
+                                <li>HTML5, CSS3, JavaScript</li>
+                                <li>React, Node.js, Express</li>
+                                <li>UI/UX Design, Figma, Adobe XD</li>
+                                <li>Version Control with Git</li>
+                                <li>Database Management (MySQL, MongoDB)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+        <section id="education">
+            <div class=" about bg-white p-4 rounded-lg">
+                <h2 class="text-3xl font-bold mb-4 ml-2 mt-6">Education</h2>
+            <table>
+                <thead>
+                    <tr>
+                    <th>School/College</th>
+                    <th>Course</th>
+                    <th>Year of Passing</th>
+                    <th>Percentage</th>
+
+                    </tr>
+                    
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>SRI KRISHNA COLLEGE OF <br>ENGINNERING AND TECHOLOGY</td>
+                        <td>M.TECH CSE(Integrated)</td>
+                        <td>2026</td>
+                        <td>CGPA: 8.43 </td>
+                    </tr>
+                    <tr>
+                        <td>SRV GIRLS HIGHER SECONDARY SCHOOL</td>
+                        <td>HSC</td>
+                        <td>2021</td>
+                        <td> 94.5% </td>
+                        
+                    </tr>
+                    <tr>
+                        <td>RAJ VIDYALAYA MATRIC HIGHER SECONDARY SCHOOL</td>
+                        <td>SSLC</td>
+                        <td>2019</td>
+                        <td> 95.6% </td>
+                        
+                    </tr>
+                    
+                </tbody>
+            </table>
+
+            </div>
+            
+        </section>
+        <section id="coursework" class="py-16">
+            <div class="about bg-white p-4 rounded-lg">
+                <h2 class="text-3xl font-bold mb-6 mt-2 ml-2">CourseWork</h2>
+            <ul class="list-disc ml-6 mb-2 det">
+                <li>Java,SpringBoot,JDBC,JEE frameworks</li>
+                <li>Operating System,Computer Networks,DataBase</li>
+                <li>C,Python,Php,React</li>
+                <li>Datastructure,Agile Tehnology,Complier Design</li>
+                <li>AI,Machine Learning,Cloud</li>
+            </ul>
+
+            </div>
+            
+        </section>
+        <!-- Skill Section -->
+<section id="skills" class="about mb-8 py-8 rounded-lg ">
+    <div class="container mx-auto ">
+        <h2 class="text-3xl font-bold mb-8 ml-6">My Skills</h2>
+        
+               
+                <div class="flex flex-wrap justify-center p-4">
+                    <div class="skill-item p-2 my-2 mx-4 flex flex-col items-center p-4 border rounded-lg shadow-lg hover:bg-gray-50 transition w-1/5">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" class="w-16 h-16 floating">
+                        <span class="mt-2 text-lg font-semibold">HTML5</span>
+                    </div>
+                    <div class="skill-item my-2 mx-4 flex flex-col items-center p-4 border rounded-lg shadow-lg bg-gray-50 hover:bg-gray-100 transition w-1/5">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" class="w-16 h-16 floating">
+                        <span class="mt-2 text-lg font-semibold">CSS3</span>
+                    </div>
+                    <div class="skill-item my-2 mx-4 flex flex-col items-center p-4 border rounded-lg shadow-lg bg-gray-50 hover:bg-gray-100 transition w-1/5">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" class="w-16 h-16 floating">
+                        <span class="mt-2 text-lg font-semibold">JavaScript</span>
+                    </div>
+                    <div class="skill-item my-2 mx-4  flex flex-col items-center p-4 border rounded-lg shadow-lg bg-gray-50 hover:bg-gray-100 transition w-1/5">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" class="w-16 h-16 floating">
+                        <span class="mt-2 text-lg font-semibold">React</span>
+                    </div>
+                    <div class="skill-item my-5 mx-4 flex flex-col items-center p-4 border rounded-lg shadow-lg bg-gray-50 hover:bg-gray-100 transition w-1/5">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" class="w-16 h-16 floating">
+                        <span class="mt-2 text-lg font-semibold">Node.js</span>
+                    </div>
+                    <div class="skill-item my-2 mx-4 flex flex-col items-center p-4 border rounded-lg shadow-lg bg-gray-50 hover:bg-gray-100 transition w-1/5 mt-6">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" class="w-16 h-16 floating">
+                        <span class="mt-2 text-lg font-semibold">Python</span>
+                    </div>
+                    <div class="skill-item my-2 mx-4 flex flex-col items-center p-4 border rounded-lg shadow-lg bg-gray-50 hover:bg-gray-100 transition w-1/5 mt-6">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" class="w-16 h-16 floating">
+                        <span class="mt-2 text-lg font-semibold">Git</span>
+                    </div>
+                    <div class="skill-item my-2 mx-4 flex flex-col items-center p-4 border rounded-lg shadow-lg bg-gray-50 hover:bg-gray-100 transition w-1/5 mt-6">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="UI/UX" class="w-16 h-16 floating">
+                        <span class="mt-2 text-lg font-semibold">UI/UX</span>
+                    </div>
+                    <div class="skill-item my-2 mx-4 flex flex-col items-center p-4 border rounded-lg shadow-lg bg-gray-50 hover:bg-gray-100 transition w-1/5 mt-6">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB" class="w-16 h-16 floating">
+                        <span class="mt-2 text-lg font-semibold">MongoDB</span>
+                    </div>
+                    <div class="skill-item my-2 mx-4  flex flex-col items-center p-4 border rounded-lg shadow-lg bg-gray-50 hover:bg-gray-100 transition w-1/5 mt-6">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="SQL" class="w-16 h-16 floating">
+                        <span class="mt-2 text-lg font-semibold">SQL</span>
+                    </div>
+                </div>
+          
+    </div>
+</section>
+
+        
+            
+            
+        
+
+<section id="projects" class="about py-16 bg-gray-200 rounded-lg px-4">
+    <h2 class="text-3xl font-bold mb-4 ml-2">Recent Projects</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div class="project m-4 p-4 shadow rounded bg-white">
+            <div class="flex justify-center items-center"><img src="assets/jn_logo.jpg" class="border-4 border-customColor rounded-lg h-42 w-36">
+                </div>
+            
+                <h3 class="text-2xl font-bold mb-2 m-2 flex justify-center mt-2 ">JobNest</h3>
+            <p>A full-stack job-seeking app built with the MERN stack. Users can create profiles, search for jobs, and apply online. Real-time notifications keep users updated on application statuses. Integrated with external APIs for job listings and company reviews.</p>
+        </div>
+        <div class="project m-4 p-4 shadow rounded bg-white">
+            <div class="flex justify-center items-center"><img src="assets/s_logo.png" class="border-4 border-customColor rounded-lg h-42 w-36">
+            </div>
+            <h3 class="text-2xl font-bold mt-2 mb-2 flex justify-center">StockWise</h3>
+            <p>A stock market prediction app using machine learning. Provides real-time stock data and forecasts. Allows users to track their portfolio and get insights. Utilizes advanced algorithms to predict stock trends.</p>
+        </div>
+        <div class="project m-4 p-4 shadow rounded bg-white">
+            <div class="flex justify-center items-center"><img src="assets/i_logo.png" class="border-4 border-customColor rounded-lg h-20 w-36">
+            </div>
+            <h3 class="text-2xl font-bold mb-2 flex justify-center mt-2 ">iconstruct</h3>
+            <p>A real-time construction site monitoring app. Enables live tracking of on-site activities and resource management. Provides instant updates on project progress and potential issues. Integrates with IoT devices for enhanced data accuracy.</p>
+        </div>
+    </div>
+</section>
+
+        <section id="achievements" class="about rounded-lg py-16 mb-4 px-4 mt-6">
+            <h2 class="text-3xl font-bold ml-4 mb-4">Achievements</h2>
+            <ul class="list-disc ml-8 det">
+                <li>SIH2023 - Finalist of Smart India Hackthon 2023.</li>
+                <li>Innovate India Coding Championship - Upgraded to finale of IICC Organized by IIT,Kanpur.</li>
+                <li>Designthon - Secured third position in UI/UX Competion organized by SKCET.</li>
+                <li>Participated in Bank of Baroda Hackthon and NetApp women Hackthon on 2023.</li>
+            </ul>
+        </section>
+        <div class="flex justify-center">
+            <section id="contact" class="about mb-4 px-4 mt-6 py-16 bg-gray-200 rounded-lg  w-1/2">
+            
+                <h2 class="text-3xl font-bold mb-4 ml-2">Contact</h2>
+                <form id="contact-form" class="space-y-4">
+                    <div>
+                        <label for="name" class="block text-sm font-bold mb-2">Name:</label>
+                        <input type="text" id="name" class="w-full p-2 border border-gray-300 rounded">
+                    </div>
+                    <div>
+                        <label for="email" class="block text-sm font-bold mb-2">Email:</label>
+                        <input type="email" id="email" class="w-full p-2 border border-gray-300 rounded">
+                    </div>
+                    <div>
+                        <label for="message" class="block text-sm font-bold mb-2">Message:</label>
+                        <textarea id="message" class="w-full p-2 border border-gray-300 rounded"></textarea>
+                    </div>
+                    <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded">Send</button>
+                </form>
+            </section>
+                
+        </div>
+
+        
+    </main>
+
+    
+   
+    <style>
+        body{
+            background-color:#c2cbaa;
+            
+        }
+        .dil{
+            background-color: teal;
+        }
+        .project{
+            background-color:#c2cbaa;
+        }
+        .det{
+            color:#fff ;
+            font-size: medium;
+        }
+        .tet{
+            color:#c2cbaa ;
+            font-size: large;
+            
+
+        }
+        
+        
+        .nav-item {
+            margin-right: 1rem;
+            padding: 1rem 1.5rem;
+            color: #fff;
+            text-decoration: none;
+            font-size: 20px;
+            transition:background-color 0.3s ease;
+            border-radius: 0.25rem;
+        }
+
+        .nav-item:hover {
+            background-color: #49bcbd;
+            color: black; /* Hover background color */
+        }
+        .about{
+                background-color: teal;
+                transition: background-color 0.3s ease;
+        }
+    
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            
+            border-radius: 5px;
+            margin-bottom: 20px;
+            margin-top: 20px;
+            background-color: #b5afaf;
+            border: 1px solid #c8c2c2;
+        }
+        th, td {
+            border: 1px solid #f5f1f1;
+            padding: 10px;
+            text-align: left;
+            
+        }
+        th {
+            background-color: #c2cbaa;
+        }
+        tbody tr:nth-child(even) {
+            background-color: #8c8a8a;
+        }
+        tbody tr:hover {
+            background-color: #ada9a9;
+        }
+        /* Responsive styles */
+        @media only screen and (max-width: 600px) {
+            table {
+                font-size: 10px;
+            }
+            th, td {
+                padding: 6px;
+            }
+        }
+        .list-arrow li {
+            position: relative;
+            padding-left: 1em; /* Adjust this value as needed */
+          }
+        .list-arrow li::before {
+            content: '➤'; /* Unicode arrow symbol */
+            position: absolute;
+            left: 0;
+            color: currentColor; /* Inherit the color from the text color */
+          }
+          
+    
+        @keyframes float {
+            0% {
+                transform: translateY(0px);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+            100% {
+                transform: translateY(0px);
+            }
+        }
+
+        .floating {
+            animation: float 3s ease-in-out infinite;
+        }
+        .skill-item{
+            background-color:#c2cbaa;
+        }
+
+        .skill-item img {
+            transition: transform 0.3s ease;
+        }
+
+        .skill-item:hover img {
+            transform: scale(1.1);
+        }
+        
+    </style>
+    <script src="main.js"></script>
+</body>
+
+</html>
